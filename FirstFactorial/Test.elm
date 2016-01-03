@@ -8,13 +8,13 @@ tests =
     suite "FirstFactorial test suite"
         [ test
             "find factorial for positive integer"
-            (assertEqual (solve 10) 3628800)
+            (assertEqual 3628800 (solve 10))
         , test
             "find factorial of 0 returns 0"
-            (assertEqual (solve 0) 0)
+            (assertEqual 0 (solve 0))
         , test
             "find factorial returns the input if < 0"
-            (assertEqual (solve -5) -5)
+            (assertEqual -5 (solve -5))
         ]
 
 

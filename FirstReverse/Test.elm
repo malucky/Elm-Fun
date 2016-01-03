@@ -6,7 +6,7 @@ import FirstReverse.Solution exposing (solve)
 tests : Test
 tests = 
     suite "FirstReverse test suite"
-        [ test "reverse string" (assertEqual (solve "hello world") "dlrow olleh")
+        [ test "reverse string" (assertEqual "dlrow olleh" (solve "hello world"))
         ]
 
 
