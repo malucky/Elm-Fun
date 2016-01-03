@@ -1,7 +1,6 @@
 module FirstReverse.Solution (solve) where
 
 import String
-import Graphics.Element exposing (show)
 
 
 solve: String -> String
